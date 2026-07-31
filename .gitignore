@@ -1,0 +1,35 @@
+# ============================================
+# .gitignore - Archivos que Git debe ignorar
+# ============================================
+
+# ---------- LOGS (no subir) ----------
+flask.log
+accesos.log
+rate_limit.log
+*.log
+
+# ---------- ARCHIVOS TEMPORALES ----------
+flask.pid
+*.pid
+*.tmp
+
+# ---------- CACHÉ DE PYTHON ----------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+
+# ---------- HISTORIAL DE TERMUX ----------
+.bash_history
+.python_history
+.termux_authinfo
+
+# ---------- ARCHIVOS DE CONFIGURACIÓN LOCAL ----------
+.env
+*.local
+
+# ---------- ARCHIVOS DEL SISTEMA ----------
+.DS_Store
+Thumbs.db
